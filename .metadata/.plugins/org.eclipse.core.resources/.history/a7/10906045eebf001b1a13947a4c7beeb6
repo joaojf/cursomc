@@ -1,0 +1,5 @@
+package com.cursomc.resources.exception;
+
+public class StandardError {
+
+}
