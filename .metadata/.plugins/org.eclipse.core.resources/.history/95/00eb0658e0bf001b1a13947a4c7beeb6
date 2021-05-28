@@ -1,0 +1,23 @@
+package com.cursomc.domain;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Produto {
+	private Integer id;
+	private String nome;
+	private Double preco;
+
+	private List<Categoria> listaCategorias = new ArrayList<>();
+
+	public Produto() {}
+
+	public Produto(Integer id, String nome, Double preco) {
+		this.id = id;
+		this.nome = nome;
+		this.preco = preco;
+	}
+
+}
